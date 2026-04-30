@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXTAG — Premium Purses & Wallets</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">NEXTAG</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="brandsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Brands</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="gucci.html">Gucci</a></li>
+              <li><a class="dropdown-item" href="lv.html">Louis Vuitton</a></li>
+              <li><a class="dropdown-item" href="coach.html">Coach</a></li>
+              <li><a class="dropdown-item" href="fossil.html">Fossil</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="purse.html">Purses</a></li>
+              <li><a class="dropdown-item" href="wallets.html">Wallets</a></li>
+              <li><a class="dropdown-item" href="twallets.html">Travel Wallets</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <a href="cart.html" class="text-white position-relative text-decoration-none" id="cart-icon">
+            <i class="fas fa-shopping-cart fs-5"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-badge">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="hero" class="hero-carousel carousel slide animate-in" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Banner-2.png" class="d-block w-100" alt="Collection banner 1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Banner-1.png" class="d-block w-100" alt="Collection banner 2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Banner-3.png" class="d-block w-100" alt="Collection banner 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="section-title mb-3 animate-in">Our Story</h2>
+      <p class="lead-long animate-in animate-delay-1">NEXTAG was founded with a clear vision: to redefine luxury for the modern era. We specialize in premium purses and wallets that blend timeless elegance with contemporary functionality. Every piece in our collection is crafted with precision, using the finest materials to ensure durability and style.</p>
+      <p class="lead-long animate-in animate-delay-2">We believe that true luxury lies in the details. From the stitching of our leather to the sleek design of our hardware, every element is thoughtfully considered. Our mission is to provide our customers with accessories that not only complement their lifestyle but also make a statement of sophisticated taste.</p>
+      <p class="lead-long animate-in animate-delay-3">Inspired by urban life and shaped by artisan craftsmanship, NEXTAG invites you to experience luxury that is both accessible and exceptional.</p>
+    </div>
+  </section>
+
+  <section class="py-3 text-center">
+    <h2 class="section-title">Explore Premium Collections Of Purses & Wallets at NEXTAG</h2>
+  </section>
+
+  <section class="py-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-3 animate-in">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-1.jfif" class="product-image" alt="Coach Leather Purse">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Coach Signature</h5>
+              <a href="product-details.html?name=Coach%20Signature&price=Rs.%2015,000&img=images/P-1.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Premium leather finish</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 15,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2">
+                  <a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a>
+                  <a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-1">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-15.jfif" class="product-image" alt="Gucci Marmont">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Gucci Marmont</h5>
+              <a href="product-details.html?name=Gucci%20Marmont&price=Rs.%2040,000&img=images/P-15.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Italian luxury design</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 40,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-2">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-3.jfif" class="product-image" alt="Louis Vuitton Speedy">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">LV Speedy 25</h5>
+              <a href="product-details.html?name=LV%20Speedy%2025&price=Rs.%2035,000&img=images/P-3.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Iconic monogram canvas</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 35,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-3">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-4.jfif" class="product-image" alt="Classic Leather Purse">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Classic Noir</h5>
+              <a href="product-details.html?name=Classic%20Noir&price=Rs.%2012,500&img=images/P-4.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Minimalist everyday carry</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 12,500</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Additional Products -->
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-7.jfif" class="product-image" alt="Premium Collection">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Elegance Carry</h5>
+              <a href="product-details.html?name=Elegance%20Carry&price=Rs.%2018,000&img=images/P-7.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Sophisticated daily essential</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 18,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-8.jfif" class="product-image" alt="Premium Collection">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Modern Satchel</h5>
+              <a href="product-details.html?name=Modern%20Satchel&price=Rs.%2025,000&img=images/P-8.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Urban lifestyle design</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 25,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-9.jfif" class="product-image" alt="Premium Collection">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Signature Tote</h5>
+              <a href="product-details.html?name=Signature%20Tote&price=Rs.%2032,500&img=images/P-9.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Timeless leather craftsmanship</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 32,500</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-12.jfif" class="product-image" alt="Premium Collection">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Velvet Night Clutch</h5>
+              <a href="product-details.html?name=Velvet%20Night%20Clutch&price=Rs.%2015,500&img=images/P-12.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Luxury evening companion</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 15,500</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="discount-banner">
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <h2><i class="fas fa-bolt"></i> Buy Package & Get <span>50% OFF</span> — Limited Time Offer <i class="fas fa-star"></i></h2>
+        <h2><i class="fas fa-bolt"></i> Buy Package & Get <span>50% OFF</span> — Limited Time Offer <i class="fas fa-star"></i></h2>
+        <h2><i class="fas fa-bolt"></i> Buy Package & Get <span>50% OFF</span> — Limited Time Offer <i class="fas fa-star"></i></h2>
+      </div>
+      <div class="marquee-content" aria-hidden="true">
+        <h2><i class="fas fa-bolt"></i> Buy Package & Get <span>50% OFF</span> — Limited Time Offer <i class="fas fa-star"></i></h2>
+        <h2><i class="fas fa-bolt"></i> Buy Package & Get <span>50% OFF</span> — Limited Time Offer <i class="fas fa-star"></i></h2>
+        <h2><i class="fas fa-bolt"></i> Buy Package & Get <span>50% OFF</span> — Limited Time Offer <i class="fas fa-star"></i></h2>
+      </div>
+    </div>
+    <p>Upgrade your luxury collection with our exclusive value bundles.</p>
+  </section>
+
+  <section class="py-4">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="section-title">Best Selling Products</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-3 animate-in">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-5.jfif" class="product-image" alt="Best Seller 1">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Coach Willow</h5>
+              <a href="product-details.html?name=Coach%20Willow&price=Rs.%2022,000&img=images/P-5.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Modern tote bag</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 22,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-1">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-11.jfif" class="product-image" alt="Best Seller 2">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">LV Neverfull</h5>
+              <a href="product-details.html?name=LV%20Neverfull&price=Rs.%2045,000&img=images/P-11.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Spacious & stylish</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 45,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-2">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-14.jfif" class="product-image" alt="Best Seller 3">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Gucci Horsebit</h5>
+              <a href="product-details.html?name=Gucci%20Horsebit&price=Rs.%2038,500&img=images/P-14.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Vintage elegance</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 38,500</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-3">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-6.jfif" class="product-image" alt="Best Seller 4">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Coach Tabby</h5>
+              <a href="product-details.html?name=Coach%20Tabby&price=Rs.%2028,000&img=images/P-6.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Boutique style</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 28,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Additional Best Sellers -->
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/P-13.jfif" class="product-image" alt="Best Seller">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Gucci GG Marmont</h5>
+              <a href="product-details.html?name=Gucci%20GG%20Marmont&price=Rs.%2042,000&img=images/P-13.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Iconic quilted leather</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 42,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/LV-p1.jfif" class="product-image" alt="Best Seller">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">LV Capucines</h5>
+              <a href="product-details.html?name=LV%20Capucines&price=Rs.%2055,000&img=images/LV-p1.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Full-grain luxury leather</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 55,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/C-p1.jfif" class="product-image" alt="Best Seller">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">Coach Studio Bag</h5>
+              <a href="product-details.html?name=Coach%20Studio%20Bag&price=Rs.%2032,000&img=images/C-p1.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Refined calf leather</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 32,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 animate-in animate-delay-4">
+          <div class="card product-card h-100 position-relative">
+            <img src="images/Lv-p2.jfif" class="product-image" alt="Best Seller">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title h6 fw-bold">LV Alma BB</h5>
+              <a href="product-details.html?name=LV%20Alma%20BB&price=Rs.%2048,000&img=images/Lv-p2.jfif" class="stretched-link"></a>
+              <p class="card-text text-muted small mb-2">Classic monogram style</p>
+              <div class="mt-auto">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="price">Rs. 48,000</span>
+                  <div class="text-warning small">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="d-grid gap-2"><a href="#" class="btn btn-primary btn-sm position-relative z-1 btn-add-cart">Add to Cart</a><a href="#" class="btn btn-outline-dark btn-sm position-relative z-1 btn-buy-now">Buy Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-white pt-0 mt-5">
+    <section class="footer-top text-white py-4">
+      <div class="container d-flex justify-content-between align-items-center">
+        <span>Connect with NEXTAG on social networks:</span>
+        <div>
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+            <h6 class="text-uppercase fw-bold">NEXTAG</h6>
+            <hr class="mb-3 mt-2">
+            <p class="text-muted">Redefining luxury through premium craftsmanship and timeless design. Our collection is curated for those who appreciate the finer things in life.</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mb-4">
+            <h6 class="text-uppercase fw-bold">Quick Links</h6>
+            <hr class="mb-3 mt-2">
+            <p><a href="index.html" class="text-white text-decoration-none">Home</a></p>
+            <p><a href="purse.html" class="text-white text-decoration-none">Purses</a></p>
+            <p><a href="wallets.html" class="text-white text-decoration-none">Wallets</a></p>
+            <p><a href="twallets.html" class="text-white text-decoration-none">Travel Wallets</a></p>
+            <p><a href="aboutus.html" class="text-white text-decoration-none">About Us</a></p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mb-4">
+            <h6 class="text-uppercase fw-bold">Customer Care</h6>
+            <hr class="mb-3 mt-2">
+            <p><a href="#" class="text-white text-decoration-none">Shipping Policy</a></p>
+            <p><a href="#" class="text-white text-decoration-none">Returns & Exchanges</a></p>
+            <p><a href="#" class="text-white text-decoration-none">FAQs</a></p>
+            <p><a href="contactus.html" class="text-white text-decoration-none">Contact Us</a></p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mb-4">
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr class="mb-3 mt-2">
+            <p><i class="fas fa-home me-2"></i>DHA Phase 5, Karachi, Pakistan</p>
+            <p><i class="fas fa-envelope me-2"></i>contact@nextag.com</p>
+            <p><i class="fas fa-phone me-2"></i>+92 300 1234567</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-3" style="background:#1b1b1b">© 2026 NEXTAG — Premium Luxury Collection</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="cart.js"></script>
+</body>
+</html>
+
+
+
+
+
+    
+
